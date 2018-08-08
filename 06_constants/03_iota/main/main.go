@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 const (
-	_  = iota
-	KB = 1 << (iota * 10)
-	MB = 1 << (iota * 10)
+	_  = iota					//0
+	KB = 1 << (iota * 10)		//1
+	MB = 1 << (iota * 10)		//2
 )
 
 func main() {
